@@ -30,7 +30,7 @@ Y = target
 st.sidebar.header('Specify Input Parameters')
 
 def user_input_features():
-    LotArea = st.sidebar.slider('LotArea', X.LotArea.min(), X.LotArea.max())
+    LotArea = st.sidebar.slider('LotArea', 1300, 215245)
     YearBuilt = st.sidebar.slider('YearBuilt', X.YearBuilt.min(), X.YearBuilt.max())
     FirstFlrSF = st.sidebar.slider('FirstFlrSF', X.FirstFlrSF.min(), X.FirstFlrSF.max())
     SecondFlrSF = st.sidebar.slider('SecondFlrSF', X.SecondFlrSF.min(), X.SecondFlrSF.max())
