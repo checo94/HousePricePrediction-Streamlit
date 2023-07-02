@@ -31,12 +31,12 @@ st.sidebar.header('Specify Input Parameters')
 
 def user_input_features():
     LotArea = st.sidebar.slider('LotArea', 1300, 215245)
-    YearBuilt = st.sidebar.slider('YearBuilt', X.YearBuilt.min(), X.YearBuilt.max())
-    FirstFlrSF = st.sidebar.slider('FirstFlrSF', X.FirstFlrSF.min(), X.FirstFlrSF.max())
-    SecondFlrSF = st.sidebar.slider('SecondFlrSF', X.SecondFlrSF.min(), X.SecondFlrSF.max())
-    FullBath = st.sidebar.slider('FullBath', X.FullBath.min(), X.FullBath.max())
-    BedroomAbvGr = st.sidebar.slider('BedroomAbvGr', X.BedroomAbvGr.min(), X.BedroomAbvGr.max())
-    TotRmsAbvGrd = st.sidebar.slider('TotRmsAbvGrd', X.TotRmsAbvGrd.min(), X.TotRmsAbvGrd.max())
+    YearBuilt = st.sidebar.slider('YearBuilt', 1872, 2010)
+    FirstFlrSF = st.sidebar.slider('FirstFlrSF', 334, 4692)
+    SecondFlrSF = st.sidebar.slider('SecondFlrSF', 0, 2065)
+    FullBath = st.sidebar.slider('FullBath', 0, 3)
+    BedroomAbvGr = st.sidebar.slider('BedroomAbvGr', 0, 8)
+    TotRmsAbvGrd = st.sidebar.slider('TotRmsAbvGrd', 2, 14)
     data = {'LotArea': LotArea,
             'YearBuilt': YearBuilt,
             'FirstFlrSF': FirstFlrSF,
