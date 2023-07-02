@@ -1,7 +1,4 @@
 streamlit
 pandas
-matplotlib.pyplot
+matplotlib
 sklearn
-sklearn.ensemble
-sklearn.model_selection
-sklearn.metrics
