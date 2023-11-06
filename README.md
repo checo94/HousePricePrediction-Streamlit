@@ -1,6 +1,6 @@
 ---
 title: House Price Prediction
-emoji: 🫡
+emoji: 🏠
 colorFrom: gray
 colorTo: pink
 sdk: streamlit
