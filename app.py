@@ -14,7 +14,7 @@ st.write('---')
 
 # Loads the Boston House Price Dataset
 data = pd.read_csv('train_houses.csv')
-data.fillna(data.mean(), inplace=True)
+# data.fillna(data.mean(), inplace=True)
 target = data.SalePrice
 # X = pd.DataFrame(data, columns=["LotArea", "YearBuilt", "FirstFlrSF", "SecondndFlrSF", "FullBath", "BedroomAbvGr", "TotRmsAbvGrd"])
 # Y = pd.DataFrame(target, columns=["SalePrice"])
