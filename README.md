@@ -107,3 +107,5 @@ Preferred communication style: Simple, everyday language.
 - SHAP library could not be installed due to environment dependency conflicts with Linux/Python 3.12 in the uv package manager
 - Feature importance from Random Forest is provided as an alternative
 - Future consideration: Explore alternative explainability libraries or environment configurations
+
+Application: https://house-price-predict-papazoglouk33.replit.app
